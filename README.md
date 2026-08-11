@@ -1,6 +1,6 @@
 # LumaBounce Privacy Policy
 
-This public repository hosts the Turkish and English privacy policy for LumaBounce by OFS Games.
+This public repository hosts the English privacy policy for LumaBounce by OFS Games.
 
 Published policy: <https://omerfrktstboop.github.io/privacy/>
 

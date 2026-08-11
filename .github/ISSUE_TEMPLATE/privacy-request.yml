@@ -9,15 +9,6 @@ body:
       value: |
         This request will be public. Do not include passwords, payment details, advertising IDs, precise location, or other sensitive information.
   - type: dropdown
-    id: language
-    attributes:
-      label: Preferred language
-      options:
-        - Türkçe
-        - English
-    validations:
-      required: true
-  - type: dropdown
     id: request_type
     attributes:
       label: Request type
