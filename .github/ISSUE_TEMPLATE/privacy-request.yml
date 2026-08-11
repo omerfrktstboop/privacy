@@ -1,0 +1,38 @@
+name: Privacy request
+description: Ask a question about LumaBounce privacy practices
+title: "Privacy request: "
+labels:
+  - privacy
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This request will be public. Do not include passwords, payment details, advertising IDs, precise location, or other sensitive information.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Preferred language
+      options:
+        - Türkçe
+        - English
+    validations:
+      required: true
+  - type: dropdown
+    id: request_type
+    attributes:
+      label: Request type
+      options:
+        - General privacy question
+        - Consent or advertising question
+        - Data access or deletion question
+        - Child privacy concern
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe the request without sharing sensitive information.
+    validations:
+      required: true
