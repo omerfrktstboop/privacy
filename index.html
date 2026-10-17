@@ -13,7 +13,7 @@
       <p class="eyebrow">OFS Games</p>
       <h1>LumaBounce Privacy Policy</h1>
       <p class="lead">This page explains how LumaBounce handles information.</p>
-      <p class="meta"><strong>Effective date:</strong> August 11, 2026</p>
+      <p class="meta"><strong>Effective date:</strong> October 17, 2026</p>
     </header>
 
     <section id="policy" lang="en">
@@ -21,7 +21,7 @@
       <p>LumaBounce (package name <code>com.ofsgames.lumabounce</code>) is provided by OFS Games. This policy applies to the LumaBounce mobile game.</p>
 
       <h3>2. Information handled by the game</h3>
-      <p>LumaBounce does not require an account. Game progress, stars, settings, language, sound and haptic preferences, Luma Coin balances, unlocked hints, and purchase entitlement cache may be stored locally on your device. OFS Games does not currently operate a server that receives this local gameplay data.</p>
+      <p>LumaBounce does not require an account. Game progress, stars, settings, language, sound and haptic preferences, Luma Coin balances, unlocked hints, and purchase entitlement cache may be stored locally on your device. OFS Games does not currently operate a server that receives this local gameplay data. Limited gameplay and crash information may be sent to Google's Firebase services as described in section 5.</p>
 
       <h3>3. Advertising and consent</h3>
       <p>Depending on the app version and your region, LumaBounce may use Google AdMob to provide rewarded and interstitial advertisements. Google and its advertising partners may process information such as device and advertising identifiers, IP address, general location derived from IP, ad interactions, consent choices, and diagnostic information. Where required, a Google User Messaging Platform consent form is shown before advertising requests are made. Rewarded ads are optional.</p>
@@ -30,20 +30,26 @@
       <h3>4. Purchases</h3>
       <p>If in-app purchases are offered, payments are processed by Google Play. OFS Games does not receive your full payment-card details. The game may receive product identifiers, purchase status, and purchase tokens needed to verify and restore purchases. Google's handling of payment information is governed by its own policies.</p>
 
-      <h3>5. Analytics</h3>
-      <p>The current game architecture records limited gameplay events only in local debug builds and does not send them to a network analytics service. If network analytics is introduced, this policy and the relevant store disclosures will be updated before that data is collected.</p>
+      <h3>5. Analytics and crash reports</h3>
+      <p>LumaBounce uses <strong>Google Analytics for Firebase</strong> and <strong>Firebase Crashlytics</strong>, services provided by Google, to understand how the game is played and to find and fix crashes.</p>
+      <p><strong>What is collected.</strong> Gameplay events (for example a level started, completed or failed, the number of shots, a time range, hints used, or the shop opened), session start and end, the app version, device model and operating system, approximate location derived from a masked IP address, in-app purchase events reported by Google Play (such as product, price and result), and identifiers that Firebase generates for this installation of the app (app instance ID, Firebase installation ID and Crashlytics installation ID). When the game crashes, Crashlytics collects the crash stack trace, the relevant app state and device information.</p>
+      <p><strong>What is not collected.</strong> We do not collect your name, email address, contacts, precise location or photos, and the game has no accounts. Analytics is configured with advertising consent denied, and we do not use analytics or crash data for advertising.</p>
+      <p><strong>When it is collected.</strong> Analytics and crash reporting start <strong>disabled</strong> on every new installation. They are switched on only where Google's User Messaging Platform reports that consent is not required for your region. In the European Economic Area, the United Kingdom and Switzerland they stay off.</p>
+      <p>Google processes this data as our service provider under the Google Analytics and Firebase terms. Learn more in <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
 
       <h3>6. Purposes and legal choices</h3>
       <p>Information is used to operate and save the game, remember settings, prevent fraud, verify purchases, serve and measure ads, maintain security, and comply with legal obligations. Where consent is required, you may accept, reject, or manage eligible advertising choices through the consent message and the app's privacy options when available. You can also reset or limit the advertising identifier through your device settings.</p>
+      <p>Analytics and crash data are used only to measure which levels are too hard or too easy, to see how features such as hints and the shop are used, and to fix crashes. Where the law of your region requires consent for this, it is not collected (see section 5); elsewhere we rely on our legitimate interest in keeping the game stable and improving it. We do not sell analytics data.</p>
 
       <h3>7. Retention and deletion</h3>
       <p>Local game data remains on the device until you clear the app's storage or uninstall the app, subject to any device backup features you control. Advertising and purchase providers retain information according to their own policies and legal obligations. Because OFS Games does not currently maintain player accounts or a gameplay-data server, it ordinarily cannot identify or remotely delete local save data.</p>
+      <p>Google Analytics event data is kept for 2 months, after which only aggregated reports remain. Crashlytics crash reports are kept for 90 days. Uninstalling the game removes the identifiers stored on your device; data already sent is deleted by Google at the end of these periods.</p>
 
       <h3>8. Children</h3>
       <p>LumaBounce is a general-audience game and is not specifically directed to children. Advertising and consent behavior will follow the age-audience settings selected for the app in Google Play and applicable law. If you believe a child's personal information has been handled improperly, contact us using the method below.</p>
 
       <h3>9. Security and international processing</h3>
-      <p>We use reasonable measures appropriate to the information handled by the game. No method of storage or transmission is completely secure. Third-party providers may process information in countries other than your own, subject to their safeguards and applicable law.</p>
+      <p>We use reasonable measures appropriate to the information handled by the game. No method of storage or transmission is completely secure. Third-party providers may process information in countries other than your own, subject to their safeguards and applicable law. Analytics and crash data are sent over encrypted connections (TLS) and may be processed on Google servers outside your country, including in the United States.</p>
 
       <h3>10. Your rights and contact</h3>
       <p>Depending on your location, you may have rights to access, correct, delete, restrict, or object to certain processing, or withdraw consent. For privacy questions, use the <a href="https://github.com/omerfrktstboop/privacy/issues/new?template=privacy-request.yml">privacy request form</a>. Do not include passwords, payment details, advertising IDs, or other sensitive information in a public request.</p>
